@@ -3,6 +3,7 @@ import { AuthContext } from "../../provider/AuthProvider";
 import Swal from "sweetalert2";
 import useStudent from "../../hooks/useStudent";
 import { Helmet } from "react-helmet-async";
+import runImage from "../../assets/images/run.jpeg";
 
 const Classes = () => {
   const [isStudent] = useStudent();
@@ -14,10 +15,10 @@ const Classes = () => {
       _id: "648589b7d4423b826e432f0e",
       instructorName: "Zitu",
       instructorEmail: "jitu@gmail.com",
-      className: "Athletics (Running)",
+      className: "Truck and field",
       price: 50,
       availableSeats: 196,
-      classImg: "https://i.ibb.co/XXJVMrW/Archery.jpg",
+      classImg: runImage ,
       status: "Approve",
       enrolledStudents: 54,
       feedback: "No feedback yet"
