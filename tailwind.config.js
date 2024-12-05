@@ -1,3 +1,5 @@
+import daisyui from 'daisyui';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,14 +9,11 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui],  // Updated to use the ESM import
   daisyui: {
     themes: [
-      "light",
-      "dark",
-      
+      "light", 
+      "dark", 
     ],
   },
-
-}
-
+};
