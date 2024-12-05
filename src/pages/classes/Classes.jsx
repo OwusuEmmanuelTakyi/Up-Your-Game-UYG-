@@ -72,7 +72,7 @@ fetch("https://elite-sports-academy-server.vercel.app/selectedClass", {
   return (
     <>
      <Helmet>
-        <title>EliteSports Academy | Classes</title>
+        <title>Up Your Game | Classes</title>
       </Helmet>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-10 py-20 px-5 bg-amber-100">
         {classes?.map((classess) => (

@@ -13,7 +13,7 @@ const Footer = () => {
                 <img src={logo} />
               </div>
             </div>
-            <p className="text-black font-bold text-xl">EliteSports Academy</p>
+            <p className="text-black font-bold text-xl">Up Your Game(UYG)</p>
           </Link>
           <div className="grid grid-flow-col gap-4 cursor-pointer ">
             <a>
@@ -74,11 +74,11 @@ const Footer = () => {
             <a className="">456 Elm Street, Springfield Uk</a>
           </div>
           <div className="flex gap-2 items-center">
-            <FaPhoneAlt></FaPhoneAlt> <a className="">+1 340 497 900</a>
+            <FaPhoneAlt></FaPhoneAlt> <a className="">0593636309</a>
           </div>
 
           <div className="flex gap-2 items-center">
-            <FaEnvelope></FaEnvelope> <a className="">elitesportsacademy@gmail.com</a>
+            <FaEnvelope></FaEnvelope> <a className="">Up Your Game(UYG)@gmail.com</a>
           </div>
         </div>
         <div>
@@ -96,7 +96,7 @@ const Footer = () => {
       </footer>
       <footer className="footer footer-center p-4 bg-yellow-300 text-base-content">
         <div>
-          <p>Copyright © 2023- EliteSports Academy. All rights reserved.</p>
+          <p>Copyright © 2024- Up Your Game(UYG). All rights reserved.</p>
         </div>
       </footer>
     </>

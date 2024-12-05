@@ -17,7 +17,7 @@ const[isStudent] = useStudent();
     return (
         <>
          <Helmet>
-        <title>EliteSports Academy | Dashboard</title>
+        <title>Up Your Game| Dashboard</title>
       </Helmet>
         {/* navbar  */}
         <Navbar></Navbar>

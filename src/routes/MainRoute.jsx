@@ -1,8 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/home/Home/Home";
-import LogIn from "../pages/login/LogIn";
-import SignUp from "../pages/signup/SignUp";
 import PrivateRoute from "./PrivateRoute";
 import AddClass from "../pages/dashboard/addclass/AddClass";
 import DashboardLayout from "../layout/DashboardLayout";
@@ -33,14 +31,7 @@ import ErrorPage from "../pages/errorPage/ErrorPage";
           path: "/",
           element:<Home></Home>,
         },
-        {
-          path: "/login",
-          element:<LogIn></LogIn>,
-        },
-        {
-          path: "/signup",
-          element:<SignUp></SignUp>,
-        },
+        
         {
           path: "/instructor",
           element:<Instructor></Instructor>,

@@ -30,7 +30,7 @@ const Slider = () => {
               <img src={banner1} alt="" />
               <div className="overlay-text p-5 md:p-20 ">
                 <h3 className="text-xl md:text-7xl font-bold md:mb-4 uppercase">This Summer join Us!</h3>
-                <p className="hidden md:block">Get Your performance journey started at EliteSports Academy with a free sports class.we offer a world class training experiences.Reach your full potential at EliteSports Academy</p>
+                <p className="hidden md:block">Get Your performance journey started at Up Your Game with a free sports class.we offer a world class training experiences.Reach your full potential at Up Your Game</p>
                 <Link to='/classes'>
                   <button className="btn  border-[#AC9C63] border-2 rounded-none bg-black text-white hover:bg-[#AC9C63] 
            md: mt-4 bg-opacity-20 hover:opacity-100">
@@ -45,7 +45,7 @@ const Slider = () => {
               <img src={banner2} alt="" />
               <div className="overlay-text p-5 md:p-20 ">
                 <h3 className="text-xl md:text-7xl font-bold md:mb-4 uppercase"> join a membership program!</h3>
-                <p className="hidden md:block"> EliteSports Academy membership offer something for every athlete.we offer a world class training experiences.Reach your full potential at EliteSports Academy</p>
+                <p className="hidden md:block"> Up Your Game membership offer something for every athlete.we offer a world class training experiences.Reach your full potential at Up Your Game</p>
                 <Link to='/classes'>
                   <button className="btn  border-[#AC9C63] border-2 rounded-none bg-black text-white hover:bg-[#AC9C63] 
            md: mt-4 bg-opacity-20 hover:opacity-100">
@@ -60,7 +60,7 @@ const Slider = () => {
               <img src={banner3} alt="" />
               <div className="overlay-text p-5 md:p-20 ">
                 <h3 className="text-xl md:text-7xl font-bold md:mb-4 uppercase">Try a Free Sports Class!</h3>
-                <p className="hidden md:block">Get Your performance journey started at EliteSports Academy with a free sports class.we offer a world class training experiences.Reach your full potential at EliteSports Academy</p>
+                <p className="hidden md:block">Get Your performance journey started at Up Your Game with a free sports class.we offer a world class training experiences.Reach your full potential at Up Your Game</p>
                 <Link to='/classes'>
                   <button className="btn  border-[#AC9C63] border-2 rounded-none bg-black text-white hover:bg-[#AC9C63] 
            md: mt-4 bg-opacity-20 hover:opacity-100">
